@@ -4,21 +4,21 @@ cask "ezswap" do
 
   on_macos do
     on_arm do
-      sha256 "23b68d807269e56ed57d338757e3f19d8183880b96d5167b71a64674f050647f"
+      sha256 "526dae18b5aef2d68905ebe0e78d87c06a70118659f87a72a942e5ade1444d6d"
       url "https://github.com/metergraph/ezswap/releases/download/v#{version}/ezswap_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3f166b7c8ccf58f4fc704ad8ef487c18e9e43341b281714c2d1065db8e3e27e0"
+      sha256 "e2bdc8aa285c1d3a7c0a0d11d19313ced21966d68dd42112185d78d6dcdbdcdc"
       url "https://github.com/metergraph/ezswap/releases/download/v#{version}/ezswap_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c1a0b650c5792d9b77388fd0b55e82aa571195a006e8323497005d432112fa3d"
+      sha256 "682f8a427110f38de4fd040c8d438b39f394b9b72cb4549ced2027323bc017ed"
       url "https://github.com/metergraph/ezswap/releases/download/v#{version}/ezswap_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5ba61f828762b14421df9894057722c0123503f969d6dd503107dce2733f4be0"
+      sha256 "3e7bc3811967c3b86e4f0044c1c5add8fb59856ddc387223864568ef87ad10e1"
       url "https://github.com/metergraph/ezswap/releases/download/v#{version}/ezswap_#{version}_linux_amd64.tar.gz"
     end
   end
